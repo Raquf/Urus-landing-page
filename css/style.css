@@ -1,9 +1,107 @@
 /* ---------- General components start ---------- */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1840px;
+  padding: 0 10px;
+}
 /* ---------- General components finish ---------- */
 
 /*---------------------------------------------------*/
 
-/* ---------- Header part start ---------- */
-/* ---------- Header part finish ---------- */
+/* ---------- Header components start ---------- */
+.header {
+  background-image: url(../images/basic/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header {
+}
+
+.header__top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.logo {
+}
+
+.logo__img {
+}
+
+.menu {
+}
+
+.menu__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 23px;
+  width: 70px;
+}
+
+.menu__btn span {
+  background-color: #ff5017;
+  display: block;
+  height: 3px;
+  width: 100%;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 135px);
+  justify-content: space-between;
+  position: relative;
+}
+
+.header__images {
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* ---------- Header components finish ---------- */
 
 /*---------------------------------------------------*/
+/* URUS */
