@@ -35,7 +35,7 @@ button {
 .container {
   margin: 0 auto;
   max-width: 1840px;
-  padding: 0 10px;
+  padding: 0 25px;
 }
 /* ---------- General components finish ---------- */
 
@@ -50,9 +50,6 @@ button {
   min-height: 100vh;
 }
 
-.header {
-}
-
 .header__top {
   align-items: center;
   display: flex;
@@ -60,21 +57,12 @@ button {
   padding-top: 30px;
 }
 
-.logo {
-}
-
-.logo__img {
-}
-
-.menu {
-}
-
 .menu__btn {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 23px;
-  width: 70px;
+  width: 50px;
 }
 
 .menu__btn span {
@@ -104,4 +92,6 @@ button {
 /* ---------- Header components finish ---------- */
 
 /*---------------------------------------------------*/
-/* URUS */
+
+/* ---------- "Info" section components start ---------- */
+/* ---------- "Info" section components finish ---------- */
