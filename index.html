@@ -25,13 +25,22 @@
               alt="logo image"
             />
           </a>
-          <div class="menu">
-            <button class="menu__btn">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
-          </div>
+          <nav class="header-nav">
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="">About</a>
+              </li>
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="">Color</a>
+              </li>
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="">Contact</a>
+              </li>
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="">Booking</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="header__content">
           <img class="header__images" src="images/basic/Urus.png"
@@ -135,9 +144,7 @@
     <!------------------- "Contacts" section components start ---------------->
     <section class="contacts">
       <div class="container">
-        <h2 class="contacts__title">
-          Забронировать автомобиль Lamborghini Urus
-        </h2>
+        <h2 class="contacts__title">Book a Lamborghini Urus</h2>
         <div class="contacts__box">
           <div class="contacts__info">
             <p class="contacts__headtext">Mandatory insurance premium: $2000</p>
@@ -153,9 +160,9 @@
             </p>
           </div>
           <form class="contacts__form form" action="">
-            <input type="text" placeholder="your name" />
-            <input type="text" placeholder="phone number" />
-            <input type="text" placeholder="city" />
+            <input class="form__input" type="text" placeholder="your name" />
+            <input class="form__input" type="text" placeholder="phone number" />
+            <input class="form__input" type="text" placeholder="city" />
             <button class="order form-order" type="submit">BOOK NOW</button>
           </form>
         </div>
