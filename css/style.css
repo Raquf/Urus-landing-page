@@ -81,6 +81,7 @@ button {
 }
 
 .header__images {
+  width: 85%;
   margin: auto;
   position: absolute;
   bottom: 0;
@@ -94,4 +95,66 @@ button {
 /*---------------------------------------------------*/
 
 /* ---------- "Info" section components start ---------- */
+.info {
+  background-color: #f8f8f8;
+  padding: 170px 0;
+}
+
+.info__title {
+  font-size: 130px;
+  line-height: 0.8;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info__img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.info__content {
+  display: flex;
+  gap: 94px;
+  margin-bottom: 170px;
+  padding-left: 155px;
+  padding-right: 90px;
+}
+
+.info__list {
+  column-count: 2;
+  gap: 140px;
+}
+
+.info__list dt,
+.info__list dd {
+  display: inline-block;
+}
+
+.info__list-line {
+  margin-bottom: 22px;
+}
+
+.price {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.order {
+  background: linear-gradient(180deg, #ff5017 0%, #ff6837 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 25px 50px;
+}
+
+.info__gallery {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.info__gallery img {
+  max-width: 32%;
+}
 /* ---------- "Info" section components finish ---------- */
