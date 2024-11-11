@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  color: #13171c;
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -160,4 +161,48 @@ button {
 /* ---------- "Info" section components finish ---------- */
 
 /* ---------- "Color" components start ---------- */
+.color {
+  background-color: #f8f8f8;
+}
+
+.color__text {
+  font-size: 160px;
+  margin-bottom: 70px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.color__gallery {
+  background-color: #13171c;
+}
+
+.color__gallery-top,
+.color__gallery-bottom {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.gallery-box {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 170px 50px;
+  text-align: center;
+}
+
+.gallery-box img {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.gallery-box__text {
+  color: #fff;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
 /* ---------- "Color" components finish ---------- */
+
+/* ---------- "Contacts" section components start ---------- */
+/* ---------- "Contacts" section components finish ---------- */
